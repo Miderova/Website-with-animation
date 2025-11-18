@@ -199,20 +199,20 @@ nav a {
     z-index: 16;
 }
 
-.right-container{
+.right-container {
     color: var(--dark-text-color);
     align-self: center;
     width: 100%;
     max-width: 40ch;
 }
 
-.right-container h2{
+.right-container h2 {
     font-size: 2rem;
 }
 
-.right-container p{
-   margin-top: 25px;
-   margin-bottom: 10px;
+.right-container p {
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 .right-container button {
@@ -225,17 +225,17 @@ nav a {
     cursor: pointer;
 }
 
-.contact{
+.contact {
     padding: 60px 0;
     background: var(--section-color);
 }
 
-.contact form{
+.contact form {
     width: 100%;
     max-width: 500px;
 }
 
-.contact input{
+.contact input {
     width: 100%;
     padding: 10px 15px;
     border: 0;
@@ -244,7 +244,8 @@ nav a {
     margin-bottom: 15px;
     margin-top: 5px;
 }
-.contact textarea{
+
+.contact textarea {
     width: 100%;
     padding: 10px 15px;
     border: 0;
@@ -254,12 +255,12 @@ nav a {
     height: 200px;
 }
 
-.contact label{
+.contact label {
     color: white;
     margin-bottom: 5px;
 }
 
-.contact button{
+.contact button {
     background: var(--btn-color);
     color: white;
     border: 0;
@@ -267,4 +268,34 @@ nav a {
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.social img {
+
+    width: 45px;
+    height: 45px;
+
+}
+
+.social button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+.social p {
+    color: white;
+    font-size: 2rem;
+}
+
+footer {
+    background: var(--nav-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }

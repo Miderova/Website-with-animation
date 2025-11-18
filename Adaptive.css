@@ -1,0 +1,186 @@
+@media (max-width: 1200px) {
+
+    .nav-container {
+        padding: 0 20px;
+    }
+
+    .info-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .info-container h2 {
+        font-size: 1rem;
+    }
+
+    .parallax-main {
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+    .right-container h2 {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .info-container {
+        bottom: 250px;
+    }
+
+    .nav-container p {
+        font-size: 1.2rem;
+    }
+
+    nav a {
+        padding: 5px 8px;
+        font-size: 0.9rem;
+    }
+
+    .parallax-main {
+        height: auto;
+        grid-template-columns: 1fr;
+        padding: 40px 0;
+        gap: 40px;
+    }
+
+    .left-container {
+        height: 400px;
+    }
+
+    .stones {
+        height: 100%;
+        max-height: 400px;
+    }
+
+    .right-container {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nav-container {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 20px;
+        gap: 10px;
+    }
+
+    nav {
+        display: flex;
+        gap: 10px;
+    }
+
+    .info-container {
+        bottom: 180px;
+        width: 90%;
+    }
+
+    .info-container h1 {
+        font-size: 1.6rem;
+    }
+
+    .routes h2 {
+        text-align: center;
+    }
+
+    .img-card-container p {
+        font-size: 1.6rem;
+    }
+
+    .parallax-main {
+        gap: 10px;
+    }
+
+    .social p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    header {
+        height: 80vh;
+    }
+
+    .info-container {
+        bottom: 150px;
+    }
+
+    .info-container h1 {
+        font-size: 1.3rem;
+    }
+
+    .info-container h2 {
+        font-size: 0.9rem;
+    }
+
+    .info-container button {
+        padding: 8px 15px;
+        font-size: 0.8rem;
+    }
+
+    .img-card-container {
+        aspect-ratio: 4 / 3;
+    }
+
+    .img-card-container p {
+        font-size: 1.3rem;
+    }
+
+    nav a {
+        font-size: 0.8rem;
+        padding: 4px;
+    }
+
+    .right-container h2 {
+        font-size: 1.4rem;
+    }
+
+    .right-container p {
+        font-size: 0.9rem;
+    }
+
+    .contact form {
+        width: 90%;
+        margin: auto;
+    }
+
+    footer .social img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .nav-container {
+        padding: 10px;
+    }
+
+    .logo-container p {
+        font-size: 1rem;
+    }
+
+    .info-container {
+        bottom: 130px;
+    }
+
+    .info-container h1 {
+        font-size: 1.1rem;
+    }
+
+    .info-container h2 {
+        font-size: 0.8rem;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .parallax-main {
+        padding: 20px 0;
+    }
+}
