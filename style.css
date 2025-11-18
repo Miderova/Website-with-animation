@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.train-img {
+    position: absolute;
+}
+
+#parallax-one {
+    z-index: 10;
+}
+
+#parallax-two {
+    z-index: 9;
+}
+
+#parallax-three {
+    z-index: 8;
+}
+
+#parallax-four {
+    z-index: 7;
+}
+
+#parallax-five {
+    z-index: 6;
+}
